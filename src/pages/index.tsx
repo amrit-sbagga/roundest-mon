@@ -5,7 +5,7 @@ import { getOptionsForVote } from '@/utils/getRandomPokemon';
 import { useState } from 'react';
 
 const btn = 
-      "items-center px-2.5 py-1.5 border border-gray-300 shadow-sm text-xs font-medium rounded";
+      "items-center px-2.5 py-1.5 border border-gray-300 shadow-sm text-xs font-medium rounded text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500";
 
 const Home: NextPage = () => {
   // const {data , isLoading} = trpc.useQuery(["hello", {text: "Amrit"}]) //calling query name of backed->router
