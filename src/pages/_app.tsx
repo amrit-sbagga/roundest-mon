@@ -11,7 +11,7 @@ import type { AppRouter } from '@/backend/router';
 
 function getBaseUrl(){
   if(process.browser) return "";
-  if(process.env.VERCEL_URL) return `https://$process.env.VERCEL_URL`
+  if(process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`
 
   return `http://localhost:${process.env.PORT ?? 3000}`; //dev url
 }
